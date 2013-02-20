@@ -43,7 +43,7 @@ CREATE TABLE forecast_result (
 	score DECIMAL(20,5) NOT NULL,
 	insert_date TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
 	last_update TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
-	CONSTRAINT fk_forecast FOREIGN KEY fk_forecast (forecast_id) REFERENCES stocrates.forecast (id) ON DELETE NO ACTION ON UPDATE NO ACTION,
+	CONSTRAINT fk_forecast FOREIGN KEY fk_forecast (forecast_id) REFERENCES stocrates.forecast (id) ON DELETE CASCADE ON UPDATE CASCADE,
 	INDEX i_score (score ASC)
 )
 ENGINE = InnoDB
