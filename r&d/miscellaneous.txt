@@ -1,0 +1,38 @@
+  $ tar xfz MySQL-python-1.2.1.tar.gz
+  $ cd MySQL-python-1.2.1
+  $ # edit site.cfg if necessary
+  $ python setup.py build
+  $ sudo python setup.py install # or su first
+
+96.226.120.140
+
+curl -s 'http://checkip.dyndns.org' | sed 's/.*Current IP Address: \([0-9\.]*\).*/\1/g'
+
+curl -u knail1@live.com:stocdns 'https://www.dnsdynamic.org/api/?hostname=stocrates.dnsdynamic.com&myip=127.0.0.1'
+
+
+curl -u knail1@live.com:stocdns 'https://www.dnsdynamic.org/api/?hostname=stocrates.dnsdynamic.com&myip=127.0.0.1'
+
+
+/Users/mkhan/mkhanScripts/updateMyIP.sh > /dev/null  2>&1
+
+
+/Users/mkhan/mkhanScripts/updateMyIP.sh > /Users/mkhan/mkhanScripts/logs/updateMyIPLog.txt > 2&1
+
+
+
+apachectl start
+systemsetup -setremotelogin on
+
+
+apachectl stop
+systemsetup -setremotelogin offssh 
+
+
+/usr/bin/python /Users/mkhan/mkhanScripts/checkServicesToggle.py >> /Users/mkhan/mkhanScripts/logs/checkServicesToggleLog.txt
+
+
+
+rightNow = datetime.datetime.now()
+print(str(rightNow) + " shutServices.py: Sending email to shutdown all services”)
+
