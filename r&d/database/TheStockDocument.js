@@ -3,6 +3,7 @@
 	"_id" : "xyz",
 	"stockSymbol" : "CSCO",
 	"companyName" : "Cisco Systems",
+	"industry" : "IT",
 	"Predictions" : [
 	{
 		"nameOfAuthor" : "JoeAnalyst", // this can be analyst or author or both 
